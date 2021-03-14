@@ -54,12 +54,13 @@ body {
     /* float:center; */
     /* align-content: center; */
     /* padding-top:240px; */
+    margin-top:-4px;
     padding-bottom: 20px;
     display: block;
     margin-left:auto;
     margin-right:auto;
     padding:inherit;
-    width:275px;
+    width:273px;
     align-content: center;
     /* white-space: nowrap; */
 }
@@ -82,14 +83,16 @@ body {
 #search {
     /* Reikia padaryt kad mažėtų iki 400px width */
     border: 1px solid rgb(228, 228, 228);
-    height: 43px;
-    width: 590px;
+    height: 44px;
+    width: 582px;
     border-radius: 30px;
+    margin-top:26px;
+    margin-left:6px;
 }
 
 #search input[type=text] {
-    margin-top: 5px;
     margin-left: 40px;
+    margin-top:-500px;
     font-size: 17px;
     font-weight: lighter;
     position: center;
@@ -97,4 +100,17 @@ body {
     width: 75%;
     border: 0;
     outline: none;
+}
+
+.search_icon {
+    width: 14px;
+    margin-left:-475px;
+    margin-top:15px;
+}
+
+#in_search {
+    /* width: 22px;
+    height: 22px; */
+    /* margin-top:-36px; */
+    /* margin-left: 200px; */
 }
