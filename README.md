@@ -1,2 +1,2 @@
 # google.github.io
-Google, but it was made in china
+google but it was made in china

@@ -1,0 +1,89 @@
+body {
+    font-family:sans-serif;
+    background-color: white;
+}
+
+.topleft {
+    float:right;
+    font-size: 13px;
+}
+
+.profile {
+    margin-right: 9px;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+}
+
+.test {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+    width: 18px;
+    height: 18px;
+    margin-left:18px;
+    margin-top: 0px;
+}
+
+.dots {
+    float: right;
+    width: 18px;
+    height: 18px;
+}
+
+
+
+.nuoroda {
+    vertical-align: 15px;
+    margin-right: 6px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+}
+
+.test:hover {
+    border-radius: 50%;
+    background-color: rgb(241, 241, 241);
+}
+
+.nuoroda:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    float:center;
+    padding-top:240px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:275px;
+    white-space: nowrap;
+}
+
+.box {
+    float:center;
+    width: 580px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#search {
+
+    border: 1px solid rgb(228, 228, 228);
+    height: 43px;
+    width: 580px;
+    border-radius: 30px;
+}
+
+#search input[type=text] {
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: lighter;
+    position: center;
+    height: 30px;
+    width: 75%;
+    border: 0;
+    outline: none;
+}
