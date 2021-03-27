@@ -1,11 +1,18 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family:sans-serif;
     background-color: white;
 }
-
+/* -------- Top Left Content -------- */
 .topleft {
+    width: 210px;
+    height: 65px;
+    display: flex;
     float:right;
+    justify-content: space-around;
     font-size: 13px;
+    align-items: center;
 }
 
 .profile {
@@ -15,33 +22,24 @@ body {
     height: 33px;
 }
 
-.test {
-    display: inline-block;
-    margin-right: 15px;
+.for-dots {
     padding: 10px;
     width: 18px;
     height: 18px;
-    margin-left:18px;
-    margin-top: 0px;
 }
 
 .dots {
-    float: right;
     width: 18px;
     height: 18px;
 }
 
-
-
 .nuoroda {
-    vertical-align: 15px;
-    margin-right: 6px;
     font-weight: lighter;
     text-decoration: none;
     color: black;
 }
 
-.test:hover {
+.for-dots:hover {
     border-radius: 50%;
     background-color: rgb(241, 241, 241);
 }
@@ -50,65 +48,58 @@ body {
     text-decoration: underline;
 }
 
-#logo {
-    /* float:center; */
-    /* align-content: center; */
-    /* padding-top:240px; */
-    margin-top:-4px;
+/* -------- Middle Section Content -------- */
+
+.main-box {
+    padding-top: 270px;
+    /* border: solid black; */
+}
+
+.center-content {
+    /* border: solid rgb(255, 0, 0); */
+    min-width: 400px;
+    max-width: 592px;
+    margin: auto;
+}
+
+.google-logo {
     padding-bottom: 20px;
     display: block;
-    margin-left:auto;
-    margin-right:auto;
-    padding:inherit;
+    margin: auto;
     width:273px;
-    align-content: center;
-    /* white-space: nowrap; */
 }
 
-#center {
-    align-content: center;
-    padding: auto;
-    float: center;
-    /* width: 592px; */
-}
-
-.box {
-    padding-top: 240px;
-    float:center;
-    width: 592px;
-    margin:auto;
-    align-content: center;
-}
-
-#search {
-    /* Reikia padaryt kad mažėtų iki 400px width */
+.search {
     border: 1px solid rgb(228, 228, 228);
     height: 44px;
-    width: 582px;
+    min-width: 400px 592px;
     border-radius: 30px;
-    margin-top:26px;
-    margin-left:6px;
+    margin: 26px 6px 0 6px;
 }
 
-#search input[type=text] {
-    margin-left: 40px;
-    margin-top:-500px;
+.search:hover {
+    box-shadow: 0 0 6px rgba(33,33,33,.2); 
+}
+
+.search input[type=text] {
+    margin-left: 20px;
+    margin-top: 7px;
     font-size: 17px;
     font-weight: lighter;
     position: center;
     height: 30px;
-    width: 75%;
+    width: 60%;
     border: 0;
     outline: none;
 }
 
 .search_icon {
     width: 14px;
-    margin-left:-475px;
-    margin-top:15px;
+    float: left;
+    margin: 14px 0 0 12px;
 }
 
-#in_search {
+.in_search {
     /* width: 22px;
     height: 22px; */
     /* margin-top:-36px; */
