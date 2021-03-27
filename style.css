@@ -51,8 +51,13 @@ body {
 /* -------- Middle Section Content -------- */
 
 .main-box {
-    padding-top: 270px;
+    /* padding-top: 270px; */
     /* border: solid black; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72%;
+    min-height: 300px;
 }
 
 .center-content {
@@ -60,6 +65,7 @@ body {
     min-width: 400px;
     max-width: 592px;
     margin: auto;
+    overflow:visible;
 }
 
 .google-logo {
@@ -74,7 +80,7 @@ body {
     height: 44px;
     min-width: 400px 592px;
     border-radius: 30px;
-    margin: 26px 6px 0 6px;
+    margin: 5px 6px 0 6px;
 }
 
 .search:hover {
